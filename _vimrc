@@ -25,9 +25,9 @@ if has("vms")
   set nobackup		" do not keep a backup file, use versions instead
 else
   set backup		" keep a backup file (restore to previous version)
-  set backupdir=C:/Program\ Files/Vim/temp
-  set undodir=C:/Program\ Files/Vim/temp
-  set directory=C:/Program\ Files/Vim/temp
+  set backupdir=~/.vim/temp
+  set undodir=~/.vim/temp
+  set directory=~/.vim/temp
   set undofile		" keep an undo file (undo changes after closing)
 endif
 
@@ -50,7 +50,7 @@ set textwidth=120
 
 set ai
 set si
-set wrap
+set wrap!
 
 " Disables annoying error sounds
 set noerrorbells
