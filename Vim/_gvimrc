@@ -1,0 +1,14 @@
+" Sets the default color scheme.
+colorscheme hilal 
+
+" Sets the default font.
+set guifont=Consolas:h11:cDEFAULT
+
+" Disables the menu bar.
+set guioptions-=m
+
+" Disables the tool bar.
+set guioptions-=T
+
+" Disables the right-hand scroll bar.
+set guioptions-=r
