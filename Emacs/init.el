@@ -5,6 +5,9 @@
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
 (load-theme 'purple-haze t)
 
+;; No alarms and no surprises.
+(setq ring-bell-function 'ignore)
+
 ;; Configures Sicstus Prolog.
 (autoload 'run-prolog "prolog" "Start a Prolog sub-process." t)
 (autoload 'prolog-mode "prolog" "Major mode for editing Prolog programs." t)
