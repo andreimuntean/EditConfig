@@ -38,3 +38,6 @@ if has('mouse')
 endif
 
 colorscheme duna
+
+set nobackup
+set noswapfile
