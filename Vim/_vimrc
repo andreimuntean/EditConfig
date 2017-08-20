@@ -6,12 +6,12 @@ set nocompatible
 set backspace=indent,eol,start
 
 set history=200     " keep 200 lines of command line history
-set ruler   		" show the cursor position all the time
-set showcmd	    	" display incomplete commands
-set incsearch		" do incremental searching
+set ruler           " show the cursor position all the time
+set showcmd         " display incomplete commands
+set incsearch       " do incremental searching
 set number
 set so=7
-set expandtab		" uses spaces instead of tabs
+set expandtab       " uses spaces instead of tabs
 set smarttab
 
 " 1 tab = 4 spaces
@@ -41,3 +41,4 @@ colorscheme duna
 
 set nobackup
 set noswapfile
+syntax on
